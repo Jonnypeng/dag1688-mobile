@@ -1,0 +1,515 @@
+/*
+Theme Name: dag1688
+Theme URI: 
+Author: pengjiang@dag1688.com
+Author URI: http://dag1688.com
+Description: Theme based on the 2012 theme for WordPress integrating Bootstrap, FontAwesome, jQuery, Keypress.js, and more. Perfect for people who want a minimalist fully-responsive WordPress theme, people who want to start using Bootstrap's CSS classes and JavaScript inside WordPress, or as a time-saving starting point for building full-custom WordPress themes.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, boilerplate, html5, light, gray, white, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: boilerstrap
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+ */
+@import url("css/bootstrap.css") ;
+
+
+
+
+/* all */
+html{display:block;
+}
+body {
+				font-family: "Microsoft YaHei UI","Helvetica Neue","Helvetica,Arial","sans-serif";
+}
+
+.grid {
+				border:1px #eee solid;
+				padding:15px;
+}
+
+/*设置表格*/
+
+td{
+				padding:15px;
+				border:1px solid #eee;
+}
+
+
+.margin-15{
+				margin:15px;
+}
+.padding-tb-15 {
+				padding:15px 0px;
+}
+
+.padding-15{
+				padding:15px;
+}
+
+.white-link li a:link{
+				color:white;
+}
+.white-link li a:visited{
+				color:white;
+}
+.white-link li a:hover{
+				color:#fdf100;
+				background-color:#004195
+}
+.hr-hidden{visibility:hidden;}
+#ie8-warning{
+				text-align:center;
+				width:90%;
+				height:700px;
+				background-color:#104741;
+				color:#fff;
+				font-weight:bold;
+				white-space:pre-wrap;
+				z-index:50;
+				position:absolute;
+				margin-left:5%;
+				margin-right:5%;
+				padding:15px;
+				line-height:2em;
+				letter-spacing:2px;
+}
+img{max-width:100%;
+				height:auto;
+}
+
+h3.text-primary{text-align:center;}
+h3 {margin-bottom:15px;}
+#comments {display:none;}
+.container {
+				padding-left:0px;
+				padding-right:0px;
+}
+.x-container{
+				padding-left:0px;
+				padding-right:0px;
+				margin-left:auto;
+				margin-right:auto;
+}
+.x-row {
+				width:100%;
+				box-sizing:border-box;
+}
+
+
+
+
+.text-center{
+				text-align:center;
+}
+
+.text-left{
+				text-align:left !important;
+}
+.more-link{
+				display:block;
+				text-align:right;
+				font-weight: bolder;
+				color: rgb(233, 72, 72);
+}
+.px800{
+				width:800px;
+}
+/* header */
+.navbar,.navbar-header,.navbar-nav{
+				min-height: 60px;
+				padding-right: 15px;
+}
+
+.navbar{margin-bottom: 0px;}
+.navbar-default{
+				background-color:#fff;
+				border-bottom: 2px #b2251d solid;
+}
+.navbar-nav {
+				margin-top: 11px;
+				float: right;
+				margin-right: auto;
+}
+.navbar-brand {
+				float:left;
+				margin-left:auto;
+}
+img[src="wp-content/themes/dag1688/images/header-background.jpg"]{margin-top:5%;}
+block-quote{
+				margin-left: 30px;
+}
+block-quote:before{
+				content:"“";
+				font:bold 4em;
+				color:#B2251D; 
+
+}
+
+
+/* main */
+#breadcrumb{
+				margin-top: 20px;
+				margin-bottom: 15px;
+				padding: 0px 15px;
+}
+.entry-title {
+				padding:0px 15px;
+				line-height: 36px;
+}
+#main,#primary {	
+				background-color:#fff;
+}
+/* #slider img,#primary img{width:2000px !important;} */
+/* article img {width:768px;} */
+.entry-thumbnail img {
+				width: 1170px;
+
+}
+.entry-title-page {
+				display:none;
+}
+
+.hoverbox:hover {
+				cursor:pointer;
+				box-shadow:1px 1px 10px;
+}	
+
+.noshadow {
+				box-shadow:none !important;
+}		
+#brand-world{text-align:center;}
+
+.post-navigation{
+				width: 100%;
+				float: left;
+				position: relative;
+				min-height: 1px;
+				padding-right: 15px;
+				padding-left: 15px;
+				box-sizing: border-box;
+}
+.screen-reader-text{
+				font-size:24px;
+}
+.search{margin-top:50px !important;}
+.text-none{display:none;}
+
+.comments-link {display:none;}
+
+.entry-header {
+				text-align:center;
+}
+
+.entry-content {
+				font-size: 1.2em;
+				line-height: 161.8%;
+				padding:15px;
+}
+
+
+.w-image{
+				display:block;
+}
+
+
+
+
+#sidebar-ad{
+				margin-top: 20px;
+				margin-bottom: 15px;
+				padding:0px 30px;
+				text-align: center;
+
+}
+
+a[rel="next"]{
+				text-align:right;
+				float:right;
+}	
+
+.nav-links {
+				font-style: italic;
+}
+
+#text-7 + hr {
+				display:none;
+}
+
+#text-4 + hr {
+				display:none;
+}
+
+
+/* main-col */
+
+.buttonP {
+				display:none;
+}
+
+
+
+article#post-124 .entry-header{
+				display:none;
+
+}
+.col-space {
+				padding:15px 0px;
+}
+
+#chat {
+				width:300px;
+				height:auto;
+				background:#eee;
+				padding:15px;
+}
+#chat-down {
+				width: 0px;
+				height: 0px;
+				border-left: 30px solid transparent;
+				border-right: 30px solid transparent;
+				border-top: 100px solid #eee;
+				transform:rotate(-10deg);
+				position:relative;
+				bottom:15px;
+				left:15px;
+				z-index:-1;
+}
+
+
+/* sidebar */
+#sidebar-01 h3{text-align:center;}
+
+#tertiary {
+				padding:0px 15px;
+}
+#wp-calendar caption{
+				text-align:center;
+}
+#wp-calendar{
+				width:100%;
+}
+td#prev{
+				text-align:left;
+}
+table th,table td{
+				text-align:center;
+}
+
+.widget-title {
+				text-align:center;
+}
+
+.tagcloud {
+				padding:0px 15px;
+}
+
+.widget-area {
+				margin-top: 55px;
+}
+
+.widget {
+				margin: 0px 15px;
+}
+
+
+#dag-service a:link{
+				color:gray;
+}
+#dag-service a:visited{
+				color:gray;
+}
+#dag-service a:hover{
+				color:#B2251D;
+
+}
+
+
+/* footer */
+#footer{background-color:gray;
+				color:#fff;
+				text-align:center;
+				margin-top:15px;
+}
+
+#footer a:link{color:#fff;}
+#footer a:visited{color:#fff;}
+#footer a:hover{color:yellow;}
+#contact-us{
+				position: fixed;
+				bottom: 10px;
+				right: -5px;
+				padding:10px 15px;
+				border-radius:0.25em;
+				z-index:999;
+				background-color:#B2251D;
+				display:none;
+}
+#contact-us a:link{
+				color:#fff;
+}
+#contact-us a:visited{
+				color:#fff;
+}
+
+
+
+/* 手机版本 最大屏幕768px*/
+
+@media screen and (max-width: 768px) {
+.navbar-nav {
+	float:left;
+}
+
+				a.navbar-brand{
+								display: inline-block;
+								height: 70px;
+								vertical-align: middle;
+				}
+
+				.hidden-mobile{
+								display:none;
+				}
+				.navbar-form{float:none;}
+				img[src="wp-content/themes/dag1688/images/logo.svg"]{
+								width:200px !important;
+				}
+				img[src="wp-content/themes/dag1688/images/header-background.jpg"]{margin-top:20%;}
+				.navbar-toggle{margin-top:20px;}
+				#pc-warning{display:none;}
+				.mobile-disable {
+								display:none;
+				}
+				.col-space {
+								border-bottom:1px #eee solid;
+				}
+				#dag-service {
+								display:none;
+				}
+
+				.navbar-fix {
+								position:fixed;
+								z-index:1030;
+								left:0px;
+								right:0px;
+								top:0px;
+								padding-left:0px;
+								padding-right:0px;
+				}
+
+				#main, #primary{
+								background-color: #FFF;
+								margin-top:65px;
+				}
+				.navbar-default .navbar-toggle{
+				}
+				.navbar-toggle{
+								display:inline-block;
+								vertical-align:middle;
+				}
+				.paging-navigation{
+								margin:15px;	
+				}
+}
+
+/* Table */
+@media screen and (min-width:769px) and (max-width:1023px){
+				.hidden-table{
+								display:none;
+				}
+
+				/*将首页,商城公告与下载中心隐藏*/
+				#menu-item-283,#menu-item-17,menu-item-21{display:none;}
+}
+
+
+/* PC */
+
+@media screen and (min-width: 1024px) {
+
+				#pc-warning {
+								margin-left:auto;
+								margin-right:auto;
+								position:fixed;
+								top:15px;
+								z-index:9999;
+								left:15px;
+								right:15px;
+				}
+
+				#pc-warning img {
+								width:2024px;
+								max-width:100%;
+				}
+
+
+
+				#contact-us {
+								display:none;
+				}
+
+
+}
+
+/* 世达 */
+
+#page #sata-category col-md-12 img{
+				width:none !important;
+}
+
+/*德克工具*/
+.btn-duck {
+				background:#B2251D;
+				border-color:#B2251D;
+				color:#fff;
+}
+
+.btn-duck:link,.btn-duck:hover{
+				color:#fff;
+				cursor:default;
+}
+
+
+.xtoy{
+				width:100%;
+				height:auto;
+				background:#636477;
+				color:#fff;
+				white-space:normal;
+				margin: 10px 0px;
+				padding:5px;
+				border-radius:0.3em;
+				box-shadow:#000 1px 1px 10px;
+
+
+}
+
+.xtoy a:link{color:#fff;}
+.xtoy a:visited {color:#fff;}
+.xtoy a:hover{
+				color:#fff;
+				text-decoration:none;
+}
+.xtoy:hover{
+				color:#fff;
+				text-decoration:none;
+				background:#09005C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
