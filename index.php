@@ -12,10 +12,10 @@
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner" role="listbox">
 						<div class="item active">
-						  <a href="http://dag1688.aliapp.com/?p=451"><img src="http://dag1688.aliapp.com/wp-content/uploads/2015/10/公牛情景全面解决方案.jpg" width="1920px"></a>
+						  <a href="../blog/?p=451"><img src="../blog/wp-content/uploads/2015/10/公牛情景全面解决方案.jpg" width="1920px"></a>
 						</div>
 						<div class="item">
-						  <a href="http://dag1688.aliapp.com/?p=430"><img src="http://dag1688.aliapp.com/wp-content/uploads/2015/10/WD-40让金属返老还童.jpg" alt="大光物资商城" width="1920px"></a>
+						  <a href="../blog/?p=430"><img src="../blog/wp-content/uploads/2015/10/WD-40让金属返老还童.jpg" alt="大光物资商城" width="1920px"></a>
 						</div>
 					  </div>
 

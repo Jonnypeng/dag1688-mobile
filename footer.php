@@ -43,5 +43,6 @@
     <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="../blog/wp-content/themes/dag1688-mobile/js/dag1688.js"></script>
   </body>
 </html>

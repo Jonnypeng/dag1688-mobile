@@ -15,19 +15,19 @@
     		<hr />
 				<div id="brand-world" class="row">
 				<div class="col-xs-6 grid" >
-				<a href="http://dag1688.aliapp.com/?page_id=769" target="_blank" title="长城精工"><img src="http://www.dag1688.com/fileRepository/product/others/3ea44e11-90f8-464d-8318-676419f460e1.jpg" alt=""></a><br />长城精工
+				<a href="http://www.dag1688.cc/blog/?page_id=769" target="_blank" title="长城精工"><img src="http://www.dag1688.com/fileRepository/product/others/3ea44e11-90f8-464d-8318-676419f460e1.jpg" alt=""></a><br />长城精工
 				</div>
 				
 				<div class="col-xs-6 grid">
-				<a href="http://dag1688.aliapp.com/?page_id=839"
+				<a href="http://www.dag1688.cc/blog/?page_id=839"
 								target="_blank"
-								title="公牛插座" ><img src= "http://dag1688.aliapp.com/wp-content/uploads/2015/10/gongniu-logo.gif" alt= "" /></a><br />公牛插座
+								title="公牛插座" ><img src= "http://www.dag1688.cc/blog/wp-content/uploads/2015/10/gongniu-logo.gif" alt= "" /></a><br />公牛插座
 				</div>
 				
 			</div>
 			<div class="row">
 				<div class="col-xs-6 grid">
-				<a href="http://dag1688.aliapp.com/?page_id=813"
+				<a href="http://www.dag1688.cc/blog/?page_id=813"
 								target="_blank"
 								title="麦太保" ><img src= "http://www.dag1688.com/fileRepository/product/others/67d04ce0-615b-4830-a2b9-7439898ad265.jpg" alt= "" /></a><br />德国麦太保
 				</div>
@@ -45,7 +45,7 @@
 								title="WD-40" ><img src= "http://www.dag1688.com/fileRepository/product/others/1c7fff67-82d8-4408-98d0-0d772aa37b81.jpg" alt= "" /></a><br />美国WD-40
 				</div>
 				<div class="col-xs-6 grid">
-				<a href="http://dag1688.aliapp.com/?page_id=741"
+				<a href="http://www.dag1688.cc/blog/?page_id=741"
 								target="_blank"
 								title="西湖" ><img src= "http://www.dag1688.com/fileRepository/product/others/bf4e30e7-b824-43d3-9b10-25ce18868f93.jpg" alt= "" /></a><br />西湖台钻
 				</div>
@@ -334,12 +334,12 @@
 			<div class="col-xs-12">
 			<div id="about-us">
 				<h3 class="text-primary" id="about-us">关于"大光物资商城"</h3>
-				<img src="http://dag1688.aliapp.com/wp-content/themes/dag1688-mobile/images/about-us-01.jpg" alt="大光物资商城" class="img-responsive" width="1170px" />
-				<img src="http://dag1688.aliapp.com/wp-content/themes/dag1688-mobile/images/about-us-02.jpg" alt="大光物资商城" class="img-responsive" width="1170px" />
+				<img src="http://www.dag1688.cc/blog/wp-content/themes/dag1688-mobile/images/about-us-01.jpg" alt="大光物资商城" class="img-responsive" width="1170px" />
+				<img src="http://www.dag1688.cc/blog/wp-content/themes/dag1688-mobile/images/about-us-02.jpg" alt="大光物资商城" class="img-responsive" width="1170px" />
 			</div>
 			<div id="wechart">
 				<p>
-					<img src="http://dag1688.aliapp.com/wp-content/themes/dag1688-mobile/images/wechat-qrcode.jpg" width="1170px" class="img-responsive" />
+					<img src="http://www.dag1688.cc/blog/wp-content/themes/dag1688-mobile/images/wechat-qrcode.jpg" width="1170px" class="img-responsive" />
 				</p>
 			</div>
 			</div>

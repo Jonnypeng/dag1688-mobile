@@ -60,7 +60,7 @@ function position_fixed(el, eltop, elleft){
 </script>
 <![endif]-->
 
-<script src="http://dag1688.aliapp.com/wp-content/themes/dag1688-mobile/js/dag1688.js"></script>
+
 </head>
   <body>
 	<div id="header" >
@@ -73,7 +73,7 @@ function position_fixed(el, eltop, elleft){
 					 <span class="icon-bar"></span>
 					 <span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img id="dag1688-log" src="http://dag1688.aliapp.com/wp-content/themes/dag1688-mobile/images/dagnewslogo.png" alt="<?php bloginfo('name'); ?>" width="200px"></a>
+				  <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img id="dag1688-log" src="../blog/wp-content/themes/dag1688-mobile/images/dagnewslogo.png" alt="<?php bloginfo('name'); ?>" width="200px"></a>
 			   </div>	
 			   
 				 <?php wp_nav_menu( 
