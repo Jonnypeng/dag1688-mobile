@@ -335,7 +335,7 @@
 			<div id="about-us">
 				<h3 class="text-primary" id="about-us">关于"大光物资商城"</h3>
 				<img src="http://www.dag1688.cc/blog/wp-content/themes/dag1688-mobile/images/about-us-01.jpg" alt="大光物资商城" class="img-responsive" width="1170px" />
-				<img src="http://www.dag1688.cc/blog/wp-content/themes/dag1688-mobile/images/about-us-02.jpg" alt="大光物资商城" class="img-responsive" width="1170px" />
+				<img src="http://www.dag1688.cc/blog/wp-content/uploads/2016/05/未标题-1.png" alt="大光物资商城" class="img-responsive" width="1170px" />
 			</div>
 			<div id="wechart">
 				<p>
