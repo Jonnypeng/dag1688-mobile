@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class('hoverbox'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('hoverbox col-md-6 col-xs-12'); ?>>
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() && ! post_password_required() && ! is_attachment() ) : ?>
 		<div class="entry-thumbnail">
@@ -49,5 +49,4 @@
 			<?php get_template_part( 'author-bio' ); ?>
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
-	<hr />
 </article><!-- #post -->

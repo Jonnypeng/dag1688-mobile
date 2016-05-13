@@ -44,7 +44,7 @@ div.row {
 	margin:0px -15px;
 }
 
-.entry-content .wide-img img{
+.entry-content img{
 	width:800px;
 }
 
@@ -192,7 +192,10 @@ block-quote:before{
 .entry-title-page {
 				display:none;
 }
-
+.hoverbox {
+	height:400px;
+	margin:1%;
+}
 .hoverbox:hover {
 				cursor:pointer;
 				box-shadow:1px 1px 10px;
@@ -375,11 +378,24 @@ table th,table td{
 				color:#fff;
 }
 
+.navigation {
+	clear:left;
+	padding:10px;
+}
+.nav-previous{
+	float:left;
+}
+.nav-next{
+	float:right;
+}
 
 
 /* 手机版本 最大屏幕768px*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+.hoverbox{
+	margin:0px;
+}
 .navbar-nav {
 	float:left;
 }
@@ -438,20 +454,11 @@ table th,table td{
 				}
 }
 
-/* Table */
-@media screen and (min-width:769px) and (max-width:1023px){
-				.hidden-table{
-								display:none;
-				}
-
-				/*将首页,商城公告与下载中心隐藏*/
-				#menu-item-283,#menu-item-17,menu-item-21{display:none;}
-}
 
 
 /* PC */
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
 
 				#pc-warning {
 								margin-left:auto;
@@ -474,6 +481,9 @@ table th,table td{
 								display:none;
 				}
 
+.col-md-6{
+	width:45%;
+}
 
 }
 
