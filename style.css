@@ -198,7 +198,9 @@ block-quote:before{
 }
 .hoverbox:hover {
 				cursor:pointer;
-				box-shadow:1px 1px 10px;
+				border:2px solid gray;	
+				background:#eee;
+				color:white;
 }	
 
 .noshadow {
