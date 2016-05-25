@@ -54,6 +54,15 @@ div.row {
     width: 100%;
     opacity: 0.9;
 }
+.sub-menu {
+	text-align:center;
+	padding:0px;
+	display:none;
+}
+
+.sub-menu li{
+	list-style:none;
+}
 
 /*设置表格*/
 
