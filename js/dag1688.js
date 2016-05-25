@@ -2,18 +2,27 @@ var browserWidth = window.innerWidth || document.documentELement.ClientWidth || 
 var hiddenPc = document.getElementsByTagName("meta")[2];
 var pageContent = document.getElementsByClassName("entry-content")[0];
 var pageImg = pageContent.getElementsByTagName("img");
+var header = document.getElementById("header");
 
-if(browserWidth < 767){
+if(browserWidth < 1000){
 				hiddenPc.content = "width=device-width, initial-scale=1,user-scalable = no"
 								for(var i in pageImg){
 												pageImg[i].parentElement.className = "wide-img";
 								};
 };
 
-if(browserWidth > 767&& browserWidth < 1024){
-	alert("不好意思，大光资讯的平板电脑界面正在开发中");
-	location.href = "http://www.dag1688.com";
+if(browserWidth > 1000){
+	window.onscroll = function (){
+				var st = document.documentElement.scrollTop || document.body.scrollTop;
+				if(st>700){
+			header.className = "header";
+}else{
+			header.className = "";
+};	
+								
 };
+}
+
 
 
 

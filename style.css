@@ -48,6 +48,13 @@ div.row {
 	width:800px;
 }
 
+.header{
+	    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    opacity: 0.9;
+}
+
 /*设置表格*/
 
 td{
